@@ -1,0 +1,302 @@
+body {
+	margin: 0;
+	padding: 0
+}
+
+/*this is header section*/
+
+.header {
+	background-image: linear-gradient(to right, #6ab04c, #A3CB38, #A3CB38, #2ed573);
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+}
+
+.logo {
+	float: left;
+}
+
+.logo small {
+	font-size: 35px;
+	color: white;
+	margin-left: 70px;
+	padding: 30px 15px;
+	display: inline-block;
+	text-shadow: 5px 5px 6px #eb4d4b;
+	border: 2px dotted orange;
+	border-radius: 80%;
+}
+
+.menu {
+	float: right;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	padding: 33px 25px;
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+/*this is banner section*/
+
+.banner {
+
+	background-image: linear-gradient(to right, #00FF7F, #78e08f, #00FF7F);
+	overflow: hidden;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.ban-one {
+	float: left;
+	width: 400px;
+	margin-left: 150px;
+	padding: 70px 5px;
+	text-align: center;
+}
+
+.ban-one h3 {
+	font-size: 35px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.ban-one p {
+	font-size: 20px;
+}
+
+.button {
+	padding: 10px 8px;
+	border: none;
+	text-align: center;
+	margin-left: 5px;
+	box-shadow: 4px 4px 5px silver, -2px -2px 5px silver;
+	border-radius: 5px;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.ban-two {}
+
+.ban-two img {
+	width: 300px;
+	border-radius: 100px 12px 120px;
+}
+
+/*this is services section */
+
+.services {
+	overflow: hidden;
+	text-align: center;
+	background: #98FB98;
+}
+
+.services h2 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.services small {
+	font-size:
+}
+
+.service-one {
+	width: 26%;
+	display: inline-block;
+	margin: 2%;
+	overflow: hidden;
+	padding: 10px;
+	border: 1px solid lime;
+	box-shadow: 3px 3px 4px lime, -1px -1px 1px lime;
+	height: 400px;
+	transition: 1s;
+}
+
+.service-one img {
+	width: 100%;
+}
+
+.service-one small {
+	font-size: 16px;
+}
+
+.service-one:hover {
+	width: 26.5%;
+	color: orange;
+}
+
+/*this is  contact section*/
+
+.contact {
+	padding: 20px 10px;
+	overflow: hidden;
+	background-color: #dff9fb;
+}
+
+.contact-one {
+	float: left;
+	margin-left: 100px;
+}
+
+.contact-one img {
+	width: 500px;
+	border-radius: 30%;
+}
+
+.contact-two {
+	float: right;
+	margin-right: 300px;
+	margin-top: 60px;
+}
+
+.contact-two input {
+	display: block;
+	padding: 10px 4px;
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+textarea {
+	width: 300px;
+	padding: 30px 5px;
+}
+
+.contact-two input[type="submit"] {
+	width: 120px;
+	margin: 7px 80px;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 4px 4px 4px olive, -1px -1px 3px olive;
+
+}
+
+/*this is about section*/
+
+.skill {
+
+	background-image: linear-gradient(to right, #00FF7F, #44bd32, #78e08f);
+	overflow: hidden;
+	padding: 10px 5px;
+}
+
+.skill-one {
+	width: 500px;
+	float: left;
+	margin-left: 200px;
+	border-right: 2px solid green;
+}
+
+.skill-one h2 {
+	font-size: 30px;
+	font-weight: 800;
+	font-style: italic;
+	text-align: center;
+}
+
+.skill-one h4 {
+	font-size: 19px;
+}
+
+.skill-point {
+	padding: 10px;
+	margin: 2px;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 2px 2px 3px green, -1px -1px 2px green;
+}
+
+.skill-two {
+	display: inline-block;
+	width: 500px;
+	padding-left: 70px;
+}
+
+.skill-two h2 {
+	font-size: 30px;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.skill-two h4 {
+	font-size: 22px;
+	margin: 8px 1px;
+}
+
+.skill-two small {
+	display: block;
+	font-size: 20px;
+	line-height: 1.25;
+}
+
+.skill-two small:fisrt-child(1) {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/*this is  blog section*/
+
+.blog {
+	background-image: linear-gradient(to left, #2ecc71, #44bd32, #6ab04c);
+	padding: 10px 5px;
+}
+
+.blog h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.blog-one {
+	width: 26%;
+	display: inline-block;
+	overflow: auto;
+	padding: 12px;
+	border: 1px solid lime;
+	box-shadow: 3px 3px 4px green, -1px -1px 1px green;
+	height: 400px;
+	margin: 2%;
+}
+
+.blog-one img {
+	width: 100%;
+}
+
+.blog-one h4 {
+	font-size: 25px;
+	text-align: center;
+}
+
+/*this is footer section*/
+
+.footer {
+	background-image: linear-gradient(to right, #98FB98, springgreen, #98FB98);
+	padding: 20px 5px;
+}
+
+.copyrights {
+	font-size: 25px;
+	text-align: center;
+}
+
+.Address {
+	font-size: 12px;
+	margin-top: 0;
+	font-size: 14px;
+	text-align: center;
+}
